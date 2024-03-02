@@ -8,3 +8,4 @@ def browser():
     driver.get('https://qa-scooter.praktikum-services.ru/')
     yield driver
     driver.quit()
+

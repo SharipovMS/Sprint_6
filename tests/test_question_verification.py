@@ -22,3 +22,4 @@ class TestQuestions:
         main_page.click_button(question)
         text_answer = main_page.get_element_text(answer)
         assert text_answer == true_answer
+

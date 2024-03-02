@@ -31,3 +31,4 @@ class MainPage(BasePage):
     @allure.step('Прокручиваем страницу до вопросов')
     def scrolling_method(self):
         self.scroll_to_element(LocatorsMainPage.QUESTION_8)
+

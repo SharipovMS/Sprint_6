@@ -55,3 +55,4 @@ class OrderPage(BasePage):
 
         self.click_button(LocatorsOrderPage.button_order)
         self.click_button(LocatorsOrderPage.button_yep_order)
+
