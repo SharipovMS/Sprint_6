@@ -33,6 +33,8 @@ class OrderPage(BasePage):
         input_phone.click()
         input_phone.send_keys(phone_number())
 
+        color = self.click_button(LocatorsOrderPage.color_black)
+
     @allure.step('Заполняю форму c подробностями аренды')
     def fill_form_two(self):
         date = self.find(LocatorsOrderPage.date)
@@ -46,8 +48,7 @@ class OrderPage(BasePage):
         period_choice = self.find(LocatorsOrderPage.period_input)
         period_choice.click()
 
-        color = self.find(LocatorsOrderPage.color_grey)
-        color.click
+        color = self.click_button(LocatorsOrderPage.color_grey)
 
         commments = self.find(LocatorsOrderPage.comment_for_delivery)
         commments.click()
