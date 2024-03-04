@@ -22,3 +22,4 @@ class TestLogo:
         main_page.click_button_scooter()
         main_page.wait_for_site(Site.scooter)
         assert main_page.current_get_url() == Site.scooter
+

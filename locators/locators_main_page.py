@@ -54,3 +54,4 @@ class LocatorsMainPage:
     # восьмой ответ
     ANSWER_8 = [By.ID, 'accordion__panel-7']
 
+

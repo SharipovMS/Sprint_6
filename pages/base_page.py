@@ -47,3 +47,4 @@ class BasePage:
         return self.browser.current_url
 
 
+
